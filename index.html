@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Weather</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    
+    <!-- Location Details -->
+    <div class="location">
+        <h1 class="location-timezone"></h1>
+        <span class="weather-icon">
+            <img src="icons/unknown.png" />
+        </span>
+    </div>
+    <br>
+
+    <!-- Temperature Details -->
+    <div class="temperature">
+        <div class="degree" onclick="toggleTemperature()">
+            <h2 class="temperature-degree"></h2>
+            <span class="temperature-unit" value="C">C</span>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="temperature-description"></h3>
+    </div>
+</body>
+</html>
